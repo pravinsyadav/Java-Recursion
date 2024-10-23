@@ -11,5 +11,6 @@ public class Recursion1 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         printNumb(n);
+        sc.close();
     }
 }
