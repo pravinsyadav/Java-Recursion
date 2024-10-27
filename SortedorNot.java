@@ -21,5 +21,6 @@ public class SortedorNot {
             arr[i] = sc.nextInt();
         }
         System.out.println(isSorted(arr, 0)); 
+        sc.close();
     }
 }
