@@ -14,5 +14,6 @@ public class Reverse {
         System.out.println("enter the string: ");
         String str = sc.nextLine();
         printRev(str, str.length()-1);
+        sc.close();
     }
 }
